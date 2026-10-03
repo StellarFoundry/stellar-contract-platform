@@ -15,7 +15,7 @@ Following the Drips guide *Creating Meaningful Issues*, every issue also include
 concrete **Relevant modules/files**, **Implementation guidance** (edge cases and
 constraints without micromanaging), an **Example commit message**, and
 **Guidelines** (assignment required, `Closes #`, and the local gate). Complexity
-is tagged with `complexity:trivial|medium|high`; individual issues never state a
+is tagged with `difficulty/trivial|medium|high`; individual issues never state a
 point or reward total.
 
 ## Themes by phase
@@ -112,7 +112,7 @@ the implementation evolves, not pre-generated.
 
 The backlog is audited against the Drips *Creating Meaningful Issues* guidance:
 
-- Every issue carries exactly one `complexity:trivial|medium|high` label.
+- Every issue carries exactly one `difficulty/trivial|medium|high` label.
 - Every issue contains Context, Problem, Objective, Scope, Acceptance criteria,
   Testing, Relevant modules/files, Implementation guidance, an example commit
   message, and Guidelines.
@@ -126,4 +126,4 @@ The backlog is audited against the Drips *Creating Meaningful Issues* guidance:
 
 Use the feature or bug template. Include a concrete objective, scope, and
 testable acceptance criteria. Add `phase:*`, `type:*`, and where useful
-`complexity:*` labels, and state dependencies explicitly.
+`difficulty/*` labels, and state dependencies explicitly.

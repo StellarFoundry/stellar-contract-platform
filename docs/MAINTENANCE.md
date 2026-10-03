@@ -7,7 +7,7 @@ How the project is maintained.
 - Issues must describe a concrete engineering objective with scope and
   acceptance criteria. Issues without them are rewritten or closed.
 - Each issue carries a `phase:*` label and a `type:*` label; complexity uses
-  `complexity:trivial|medium|high` where useful.
+  `difficulty/trivial|medium|high` where useful.
 - Duplicates are closed and merged into a canonical issue.
 - Dependencies are stated explicitly (`Depends on #X`). Circular dependencies
   are not allowed.
