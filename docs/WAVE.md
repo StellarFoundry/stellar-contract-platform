@@ -11,9 +11,9 @@ Every issue carries one complexity label:
 
 | Label | Typical work |
 | ----- | ------------ |
-| `complexity:trivial` | Small, clearly bounded change with obvious acceptance criteria. |
-| `complexity:medium` | A standard feature or logic touching several parts of the codebase. |
-| `complexity:high` | Complex engineering: integrations or architectural changes. |
+| `difficulty/trivial` | Small, clearly bounded change with obvious acceptance criteria. |
+| `difficulty/medium` | A standard feature or logic touching several parts of the codebase. |
+| `difficulty/high` | Complex engineering: integrations or architectural changes. |
 
 Complexity is assigned from the scope of each individual issue, never from an
 aggregate target. Issues are not split or inflated to change their size; if a
@@ -37,7 +37,7 @@ Each issue includes:
 
 ## Claiming an issue
 
-1. Pick an issue. `complexity:trivial` and well-scoped `complexity:medium`
+1. Pick an issue. `difficulty/trivial` and well-scoped `difficulty/medium`
    issues are the easiest entry points.
 2. Request assignment by commenting on the issue. Do not open a pull request for
    an issue you have not been assigned.
